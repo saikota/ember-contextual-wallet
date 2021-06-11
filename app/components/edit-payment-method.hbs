@@ -1,0 +1,8 @@
+<div>
+    I am in edit-payment-method
+</div>
+
+{{yield (hash
+    ccform=(component 'cc-form' onClickSave=this.submitForm componentName=this.creditCardComponentName)
+    authccform=(component 'auth-cc-form' onClickSave=this.submitAuthForm componentName=this.authCreditCardComponentName)
+)}}

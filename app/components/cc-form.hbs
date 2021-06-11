@@ -1,0 +1,25 @@
+
+
+
+<h5>Component:{{@componentName}}</h5>
+<form>
+        <div class="form-group">
+            <label for="firstName">     First Name                  :</label>
+            <input type="text" value="sai" class="form-control" >
+        </div>
+
+        <div class="form-group">
+            <label for="lastName" > last Name                         :</label>
+            <input type="text" value="ram" class="form-control" >
+        </div>
+
+        <div class="form-group">
+            <label for="cc-number" > Credit Card Number :</label>
+            <input type="text" class="form-control" >
+        </div>
+
+        <div class="form-group">
+            <input type="button" class="btn btn-primary" value="Save" {{on "click" @onClickSave}}>
+        </div>
+</form>
+

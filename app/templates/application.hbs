@@ -1,5 +1,22 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
 
-{{outlet}}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav>
+              <a class="navbar-brand" href="#">Wallet-Addon</a>
+       </nav>
+       <nav class="navbar nav-fill">
+              <div class="container-fluid">
+            <LinkTo @route="configurable-xo"> Configurable Checkout </LinkTo>
+       </div>
+       </nav>
+
+     <nav class="navbar navbar-light bg-light">
+       <div class="container-fluid">
+            <LinkTo @route="wallet-management"> Wallet Management Page</LinkTo>
+       </div>
+     </nav>
+
+</nav>
+       
+<div class="container">
+       {{outlet}}
+</div>
