@@ -19,3 +19,6 @@ Application.hbs
               |--> CCForm
               |--> AuthCCForm
 ```
+
+Demo:
+![ Alt text](Recording. gif) / ! [](/gift/Recording. gif)
