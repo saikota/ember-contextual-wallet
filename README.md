@@ -21,4 +21,4 @@ Application.hbs
 ```
 
 Demo:
-![ Alt text](Recording. gif) / ! [](https://github.com/saikota/ember-contextual-wallet/blob/main/gif/Recording.gif)
+![ Alt text](https://github.com/saikota/ember-contextual-wallet/blob/main/gif/Recording.gif)
