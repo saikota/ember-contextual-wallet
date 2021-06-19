@@ -18,6 +18,12 @@
 
 
 ## Comoponent Structure
+
+Wallet will have two components
+
+- CCForm ( used for checkout cases)
+- AuthCCForm (used for wallet-management scenario: does save card + makes auth calls)
+
 ```
 Application.hbs
 |-->Wallet
