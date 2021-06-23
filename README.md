@@ -32,7 +32,7 @@ Application.hbs
               |--> AuthCCForm
 ```
 
-### Map to wallet-addon-mp
+### Component Mapping to wallet-addon-mp
 * Wallet -> Wallet-Container
 * EditPaymentMethod (newly introduced component)
 * CCForm -> Create-Payment-Method component
