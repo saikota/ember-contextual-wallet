@@ -32,5 +32,13 @@ Application.hbs
               |--> AuthCCForm
 ```
 
+### Map to wallet-addon-mp
+* Wallet -> Wallet-Container
+* EditPaymentMethod (newly introduced component)
+* CCForm -> Create-Payment-Method component
+* AuthCCForm -> A Create-Payment-Method component which has additional actions to do auth checks
+
+
+
 Demo:
 ![ Alt text](https://github.com/saikota/ember-contextual-wallet/blob/main/gif/Recording.gif)
